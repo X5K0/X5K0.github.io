@@ -1,10 +1,17 @@
-/**
-* Template Name: Personal
-* Updated: Jun 18 2023 with Bootstrap v5.3.0
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+function downloadFile() {
+  var fileUrl = 'https://github.com/X5K0/X5K0.github.io/blob/main/assets/img/CV2024.pdf';
+  
+  var fileName = 'mi_cv.pdf';
+  
+  var link = document.createElement('a');
+  
+  link.href = fileUrl;
+  
+  link.download = fileName;
+  
+  link.click();
+}
+
 (function() {
   "use strict";
 
