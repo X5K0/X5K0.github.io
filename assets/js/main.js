@@ -1,5 +1,5 @@
 function downloadFile() {
-  var fileUrl = 'https://drive.google.com/file/d/1F8ZYKGZQckHB-etsNXEF2gsjjNRzLXmc/view?usp=sharing';
+  var fileUrl = 'https://github.com/X5K0/X5K0.github.io/blob/main/assets/img/CV2024.pdf';
   
   var fileName = 'mi_cv.pdf';
   
