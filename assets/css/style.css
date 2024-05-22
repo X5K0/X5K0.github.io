@@ -1223,10 +1223,22 @@ section .container {
   background-color: #00b655;
 }
 
-.portfolio-hover img {
-  transition: transform 0.3s ease;
+.portfolio-hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
 }
 
-.portfolio-hover img:hover {
-  transform: scale(1.05);
+.centered {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.portfolio-hover img {
+  margin: 0 auto;
+  display: block;
 }
